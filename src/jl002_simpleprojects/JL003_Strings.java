@@ -62,5 +62,34 @@ public class JL003_Strings {
         for (String paragraph : paragraphs) {
             System.out.println(paragraph); // Print each paragraph
         }
+
+        System.out.println("\n" + text.length() + " characters in total.");
+        System.out.println("There are " + paragraphs.length + " paragraphs in total.");
+        System.out.println("There are " + paragraphs[0].length() + " characters in the first paragraph.");
+        System.out.println("There are " + paragraphs[paragraphs.length - 1].length() + " characters in the last paragraph.");
+        System.out.println("There are " + paragraphs[paragraphs.length / 2].length() + " characters in the middle paragraph.");
+
+        System.out.println(text.toLowerCase());
+        System.out.println(text.toUpperCase());
+
+        String[] words = text.split("\\s+"); // Split the text into words based on whitespace
+
+        for (String word : words) {
+            System.out.println(word);
+        }
+
+        System.out.println("\n" + words.length + " words in total.");
+
+        System.out.println(words[0].length() + " characters in the first word.");
+        System.out.println(words[words.length - 1].length() + " characters in the last word.");
+        System.out.println(words[words.length / 2].length() + " characters in the middle word.");
+
+        System.out.println(words[0].toLowerCase());
+        System.out.println(words[0].toUpperCase());
+
+        System.out.println(words[words.length - 1].toLowerCase());
+        System.out.println(words[words.length - 1].toUpperCase());
+
+
     }
 }
