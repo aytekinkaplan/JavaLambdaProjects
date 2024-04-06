@@ -1,4 +1,4 @@
-package JL001_simpleprojects; // Package declaration
+package jl001_simpleprojects; // Package declaration
 
 import java.util.ArrayList; // Import ArrayList class
 import java.util.List; // Import List interface
