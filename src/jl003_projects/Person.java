@@ -60,7 +60,7 @@ public class Person {
         List<Person> persons = new ArrayList<Person>();
         persons.add(new Person("John", LocalDate.of(1980, 1, 1), Sex.MALE, "example1@example.com"));
         persons.add(new Person("Jane", LocalDate.of(1945, 1, 1), Sex.FEMALE, "example2@example.com"));
-        persons.add(new Person("Mary", LocalDate.of(1976, 1, 1), Sex.MALE, "example3@example.com"));
+        persons.add(new Person("Mary", LocalDate.of(1976, 1, 1), Sex.FEMALE, "example3@example.com"));
         persons.add(new Person("Peter", LocalDate.of(1985, 1, 1), Sex.MALE, "example4@example.com"));
         persons.add(new Person("Lisa", LocalDate.of(1990, 1, 1), Sex.FEMALE, "example5@example.com"));
         persons.add(new Person("Sarah", LocalDate.of(1995, 1, 1), Sex.FEMALE, "example6@example.com"));
